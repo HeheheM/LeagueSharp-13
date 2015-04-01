@@ -1,4 +1,4 @@
-﻿// This file is part of LeagueSharp.Common.
+// This file is part of LeagueSharp.Common.
 // 
 // LeagueSharp.Common is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -73,7 +73,7 @@ namespace BlackKassadin
 
             CreateMenu();
 
-            Game.OnGameUpdate += Game_OnGameUpdate;
+            Game.OnUpdate += Game_OnGameUpdate;
             Drawing.OnDraw += Drawing_OnDraw;
 
             ShowNotification("BlackKassadin by blacky&Justy - Loaded", System.Drawing.Color.Crimson, 4000);
